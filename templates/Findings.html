@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Findings</title>
+    <link rel="stylesheet" href="static/Query.css">
+    <link rel="icon" href="Favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class='Card'>
+		<form>
+			<div>
+				<h1>WordCracker</h1>
+			</div>
+			<div>
+				<h3>
+					[Findings]
+				</h3>
+				{% for word in Words %}
+				<p>
+					{{word}}
+				</p>
+				{% endfor %}
+			</div>
+			<div class='FooterContainer'>
+				<p>
+					Made With &hearts; By thegithaka
+				</p>
+			</div>
+		</form>
+    </div>
+	<script src="Query.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Query</title>
+    <link rel="stylesheet" href="static/Query.css">
+    <link rel="icon" href="Favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class='Card'>
+		<form action="{{ url_for("GetQuery")}}" method="post">
+			<div>
+				<h1>WordCracker</h1>
+			</div>
+			<div class='InputContainer'>
+				<label>Word Length</label>
+				<input type='number' name='WordLength'>
+			</div>
+			<div class='InputContainer'>
+				<label>Word Contains</label>
+				<input type='text' name='WordContains'>
+			</div>
+			<div class='InputContainer'>
+				<label>Word Begins With</label>
+				<input type='text' name='WordBegins'>
+			</div>
+			<div class='InputContainer'>
+				<label>Word Ends With</label>
+				<input type='text' name='WordEnds'>
+			</div>
+			<div class='ButtonContainer'>
+				<button type="submit">SUBMIT</button>
+			</div>
+			<div class='FooterContainer'>
+				<p>
+					Made With &hearts; By thegithaka
+				</p>
+			</div>
+		</form>
+    </div>
+	<script src="Query.js"></script>
+  </body>
+</html>

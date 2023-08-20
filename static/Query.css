@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Regular';
+	src: url('Product Sans Regular.ttf')
+}
+
+@font-face {
+	font-family: 'Bold';
+	src: url('Product Sans Bold.ttf')
+}
+
+.Card {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	margin-top: 0px;
+	width: 275px;
+	height: auto;
+	padding: 20px;
+	border-radius: 0px;
+	/* outline: 1px solid #a1a1a1; */
+	/* box-shadow: 0px 0px 5px #a5a5a5; */
+}
+
+input {
+	text-transform: lowercase;
+	margin-top: 2px;
+	color: #a5a5a5;
+	background-color: #f1f1f1;
+	font-size: 20px;
+	height: 45px;
+	width: 95%;
+	border: none;
+	outline: 1px solid #a1a1a1;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-family: Bold;
+}
+
+input:focus {
+	outline: 2px solid #a4a4a4;
+}
+
+label {
+	color: #a5a5a5;
+	font-size: 15px;
+	font-family: Regular;
+}
+
+.InputContainer {
+	margin-top: 10px;
+}
+
+button {
+	color: white;
+	background-color: #a5a5a5;
+	height: 55px;
+	width: 100%;
+	font-family: Bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px	
+}
+
+button:active {
+	background-color: transparent;
+	color: #a5a5a5;
+	border: 2px solid #a5a5a5;
+}
+
+.ButtonContainer {
+	margin-top: 30px;
+}
+
+h1 {
+	font-family: Bold;
+	text-align: center;
+	color: #a5a5a5;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-top: -10px;
+	text-align: center;
+	font-family: Bold;
+	color: #a5a5a5;
+}
+
+p {
+	font-family: Regular;
+	text-align: center;
+	color: #a5a5a5;
+}
+
+.FooterContainer {
+	margin-top: 40px;
+}
