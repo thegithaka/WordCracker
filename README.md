@@ -1,4 +1,5 @@
 **WordCracker**
+
 The following app has been runs with the help of flask. To run the app on your device, follow the following steps
  1. Clone the project from this repository - ``git clone https://github.com/thegithaka/WordCracker.git ``
  2. Open the project directory ``cd WordCracker ``
